@@ -32,7 +32,8 @@ EXTENSIONS=(
 CHECKPOINT_MODELS=(
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
-    "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+    "https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/flux1-dev-fp8-all-in-one.safetensors"
+    # "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp8"
 )
 
 LORA_MODELS=(

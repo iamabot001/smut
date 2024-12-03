@@ -6,6 +6,7 @@
 
 ### Edit the following arrays to suit your workflow - values must be quoted and separated by newlines or spaces.
 ### If you specify gated models you'll need to set environment variables HF_TOKEN and/orf CIVITAI_TOKEN
+echo "Script Started"
 
 DISK_GB_REQUIRED=30
 
@@ -29,6 +30,8 @@ EXTENSIONS=(
     "https://github.com/Physton/sd-webui-prompt-all-in-one"
 )
 
+echo "Downloading checkpoints"
+
 CHECKPOINT_MODELS=(
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
@@ -36,9 +39,11 @@ CHECKPOINT_MODELS=(
     # "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp8"
 )
 
+echo "Checkpoint downloaded"
+
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
-    https://civitai.com/api/download/models/774008?type=Model&format=SafeTensor
+    "https://civitai.com/api/download/models/774008?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(

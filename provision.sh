@@ -24,7 +24,7 @@ EXTENSIONS=(
     # "https://github.com/adieyal/sd-dynamic-prompts"
     # "https://github.com/ototadana/sd-face-editor"
     # "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
-    "https://github.com/hako-mikan/sd-webui-regional-prompter"
+    # "https://github.com/hako-mikan/sd-webui-regional-prompter"
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
     "https://github.com/BlafKing/sd-civitai-browser-plus"
     "https://github.com/Physton/sd-webui-prompt-all-in-one"

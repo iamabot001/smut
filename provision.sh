@@ -37,13 +37,14 @@ CHECKPOINT_MODELS=(
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
     # "https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/flux1-dev-fp8-all-in-one.safetensors"
     # "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp8"
-    "https://civitai.com/api/download/models/942694?type=Model&format=SafeTensor&size=pruned&fp=nf4"
+    # "https://civitai.com/api/download/models/942694?type=Model&format=SafeTensor&size=pruned&fp=nf4"
 )
 
 echo "Checkpoint downloaded"
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
+    "https://civitai.com/api/download/models/901795"
     # "https://civitai.com/api/download/models/774008?type=Model&format=SafeTensor"
 )
 
